@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.hundsun.custinfo.mapper.CustinfoMapper">
+
+	<resultMap id="custinfoMap" type="Custinfo"></resultMap>
+
+	<sql id="sqlBaseColumn">
+       id,
+       name,
+       gender,
+       age,
+	   address,
+	   phone,
+	   imageaddr,
+	   status
+    </sql>
+	
+	<select id="findAll" parameterType="Custinfo" resultMap="custinfoMap">
+		SELECT
+		<include refid="sqlBaseColumn"/>
+		from custinfo where status = '0'
+		<if test="name != null and name != ''">
+			and name like concat('%',#{name},'%')
+		</if>
+		<if test="phone != null and phone != ''">
+			and phone like concat('%', #{phone}, '%')
+		</if>
+	</select>
+
+	<insert id="addOne" parameterType="Custinfo" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO custinfo(
+			<if test="id != null and id != 0">id,</if>
+			<if test="name != null and name != ''">name,</if>
+			<if test="gender != null and gender != ''">gender,</if>
+			<if test="age != null and age != ''">age,</if>
+			<if test="address != null and address != ''">address,</if>
+			<if test="phone != null and phone != ''">phone,</if>
+			<if test="imageaddr != null and imageaddr != ''">imageaddr,</if>
+			<if test="status != null and status != ''">status</if>
+		) values(
+		<if test="id != null and id != 0">#{id},</if>
+		<if test="name != null and name != ''">#{name},</if>
+		<if test="gender != null and gender != ''">#{gender},</if>
+		<if test="age != null and age !=''">#{age},</if>
+		<if test="address != null and address != ''">#{address},</if>
+		<if test="phone != null and phone != ''">#{phone},</if>
+		<if test="imageaddr != null and imageaddr != ''">#{imageaddr},</if>
+		<if test="status != null and status != ''">#{status}</if>
+		)
+	</insert>
+	
+
+	
+</mapper> 

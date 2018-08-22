@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<meta charset="utf-8">
+<head th:include="include :: header"></head>
+<body class="gray-bg">
+
+<div class="container-div">
+    <div class="row">
+        <div class="col-sm-12 select-info">
+            <form id="custinfo-form">
+                <div class="select-list">
+                    <ul>
+                        <li>
+                            客户姓名：<input type="text" name="name"/>
+                        </li>
+                        <li>
+                            手机号：<input type="text" name="phone"/>
+                        </li>
+                        <!--<li>
+                            岗位状态：<select name="status" th:with="type=${@dict.getType('sys_normal_disable')}">
+                            <option value="">所有</option>
+                            <option th:each="e : ${type}" th:text="${e['dictLabel']}" th:value="${e['dictValue']}"></option>
+                        </select>
+                        </li>-->
+                        <li>
+                            <a class="btn btn-primary btn-rounded btn-sm" onclick="$.table.search()"><i class="fa fa-search"></i>&nbsp;搜索</a>
+                            <!--<a class="btn btn-success btn-rounded btn-sm" onclick="$.table.exportExcel()" shiro:hasPermission="system:post:export"><i class="fa fa-download"></i>&nbsp;导出</a>-->
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+
+        <div class="btn-group hidden-xs" id="toolbar" role="group">
+            <a class="btn btn-outline btn-success btn-rounded" onclick="$.operate.add()" shiro:hasPermission="hundsun:custinfo:add">
+                <i class="fa fa-plus"></i> 新增
+            </a>
+           <!-- <a class="btn btn-outline btn-danger btn-rounded" onclick="$.operate.batRemove()" shiro:hasPermission="system:post:remove">
+                <i class="fa fa-trash-o"></i> 删除
+            </a>-->
+        </div>
+
+        <div class="col-sm-12 select-info table-striped">
+            <table id="bootstrap-table" data-mobile-responsive="true"></table>
+        </div>
+    </div>
+</div>
+<div th:include="include :: footer"></div>
+<script th:inline="javascript">
+    /*var editFlag = [[${@permission.hasPermi('system:post:edit')}]];
+    var removeFlag = [[${@permission.hasPermi('system:post:remove')}]];
+    var datas = [[${@dict.getType('sys_normal_disable')}]];*/
+    var prefix = ctx + "hundsun/custinfo"
+
+    $(function() {
+        var options = {
+            url: prefix + "/list",
+            createUrl: prefix + "/add",
+            /*updateUrl: prefix + "/edit/{id}",
+            removeUrl: prefix + "/remove",
+            exportUrl: prefix + "/export",
+            sortName: "name",*/
+            modalName: "客户",
+            search: false,
+            showExport: false,
+            columns: [{
+                checkbox: true
+            },
+                {
+                    field: 'id',
+                    title: '客户编号'
+                },
+                {
+                    field: 'name',
+                    title: '客户姓名',
+                },
+                {
+                    field: 'gender',
+                    title: '性别',
+                },
+                {
+                    field: 'age',
+                    title: '年龄',
+                    sortable: true
+                },
+                {
+                    field: 'address',
+                    title: '地址',
+                },
+                {
+                    field: 'phone',
+                    title: '手机号',
+                },
+                {
+                    field: 'imageaddr',
+                    title: '头像',
+                },
+                {
+                    field: 'status',
+                    title: '状态',
+                }/*,
+                {
+                    field: 'status',
+                    title: '状态',
+                    align: 'center',
+                    formatter: function(value, row, index) {
+                        return $.table.selectDictLabel(datas, value);
+                    }
+                }*/]
+        };
+        $.table.init(options);
+    });
+</script>
+</body>
+</html>
