@@ -48,6 +48,8 @@ spring:
   jackson:
     time-zone: GMT+8
     date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+       indent-output: true
   profiles: 
     active: druid
   #文件上传

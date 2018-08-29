@@ -18,7 +18,7 @@
                             手机号：<input type="text" name="phone"/>
                         </li>
                         <!--<li>
-                            岗位状态：<select name="status" th:with="type=${@dict.getType('sys_normal_disable')}">
+                            客户状态：<select name="status" th:with="type=${@dict.getType('sys_show_hide')}">
                             <option value="">所有</option>
                             <option th:each="e : ${type}" th:text="${e['dictLabel']}" th:value="${e['dictValue']}"></option>
                         </select>
