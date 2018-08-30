@@ -39,7 +39,7 @@
                             <button class="btn btn-warning" id="reset" type="button">重置</button>
                         </li>
                         <li>
-                            <a id="searchBut" class="btn btn-primary btn-rounded btn-sm" onclick="$.table.search()"><i class="fa fa-search"></i>&nbsp;搜索</a>
+                            <a id="searchBut" class="btn btn-primary btn-rounded btn-sm"><i class="fa fa-search"></i>&nbsp;搜索</a>
                             <!--<a class="btn btn-success btn-rounded btn-sm" onclick="$.table.exportExcel()" shiro:hasPermission="system:post:export"><i class="fa fa-download"></i>&nbsp;导出</a>-->
                         </li>
                     </ul>
@@ -61,12 +61,22 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" th:src="@{/hundsun/custinfo/custinfo.js}"></script>
+<!--<script type="text/javascript" th:src="@{/hundsun/custinfo/custinfo.js}"></script>-->
 <div th:include="include :: footer"></div>
 <script th:inline="javascript">
     /*var editFlag = [[${@permission.hasPermi('system:post:edit')}]];
     var removeFlag = [[${@permission.hasPermi('system:post:remove')}]];
     var datas = [[${@dict.getType('sys_normal_disable')}]];*/
+    var address = "";
+    $("#searchBut").on("click",function(){
+        $('.select-item').each(function(i){
+            var tradeflag = $(this).text();
+            address = address + tradeflag;
+        })
+        $("#address").val(address);
+        address = "";
+        $.table.search();
+    })
 
 
     var prefix = ctx + "hundsun/custinfo";
