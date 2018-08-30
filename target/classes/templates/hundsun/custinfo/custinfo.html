@@ -17,14 +17,29 @@
                         <li>
                             手机号：<input type="text" name="phone"/>
                         </li>
-                        <!--<li>
+                        <li>
                             客户状态：<select name="status" th:with="type=${@dict.getType('sys_show_hide')}">
                             <option value="">所有</option>
                             <option th:each="e : ${type}" th:text="${e['dictLabel']}" th:value="${e['dictValue']}"></option>
                         </select>
-                        </li>-->
+                        </li>
                         <li>
-                            <a class="btn btn-primary btn-rounded btn-sm" onclick="$.table.search()"><i class="fa fa-search"></i>&nbsp;搜索</a>
+                            <div class="docs-methods">
+                                    <div id="distpicker">
+                                        <div class="form-group">
+                                            <div style="position: relative;">
+                                                <input id="city-picker3" class="form-control" readonly type="text" value="" data-toggle="city-picker">
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <input id="address" name="address" type="hidden" value=""/>
+                        </li>
+                        <li>
+                            <button class="btn btn-warning" id="reset" type="button">重置</button>
+                        </li>
+                        <li>
+                            <a id="searchBut" class="btn btn-primary btn-rounded btn-sm" onclick="$.table.search()"><i class="fa fa-search"></i>&nbsp;搜索</a>
                             <!--<a class="btn btn-success btn-rounded btn-sm" onclick="$.table.exportExcel()" shiro:hasPermission="system:post:export"><i class="fa fa-download"></i>&nbsp;导出</a>-->
                         </li>
                     </ul>
@@ -46,12 +61,15 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" th:src="@{/hundsun/custinfo/custinfo.js}"></script>
 <div th:include="include :: footer"></div>
 <script th:inline="javascript">
     /*var editFlag = [[${@permission.hasPermi('system:post:edit')}]];
     var removeFlag = [[${@permission.hasPermi('system:post:remove')}]];
     var datas = [[${@dict.getType('sys_normal_disable')}]];*/
-    var prefix = ctx + "hundsun/custinfo"
+
+
+    var prefix = ctx + "hundsun/custinfo";
 
     $(function() {
         var options = {
@@ -110,6 +128,7 @@
                 }*/]
         };
         $.table.init(options);
+        $("#address").val("");
     });
 </script>
 </body>
