@@ -1,5 +1,6 @@
 $(function(){
     var address = "";
+    console.log("ruoyi");
     debugger;
     $("#searchBut").on("click",function(){
         $('.select-item').each(function(i){
