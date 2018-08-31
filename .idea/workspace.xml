@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0432ee15-34c5-43d9-9097-4a4a471ab5db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/ajax/libs/distpicker/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/ajax/libs/distpicker/city-picker.data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/ajax/libs/distpicker/city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/ajax/libs/distpicker/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/ajax/libs/distpicker/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/distpicker/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/distpicker/css/city-picker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/distpicker/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/include.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hundsun/custinfo/custinfo.html" afterPath="$PROJECT_DIR$/target/classes/templates/hundsun/custinfo/custinfo.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/include.html" afterPath="$PROJECT_DIR$/target/classes/templates/include.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js" afterPath="$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custinfo.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custinfo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            <state relative-caret-position="322">
+              <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -84,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custinfo.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custinfo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="46">
+              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -567,12 +554,12 @@
       <workItem from="1535520099340" duration="1221000" />
       <workItem from="1535552024112" duration="1517000" />
       <workItem from="1535598310209" duration="4813000" />
-      <workItem from="1535617874920" duration="5718000" />
+      <workItem from="1535617874920" duration="6374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60386000" />
+    <option name="totallyTimeSpent" value="61042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1013,21 +1000,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="46">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="322">
+          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
