@@ -136,7 +136,7 @@
         	        url: options.url,              // 请求后台的URL（*）
         	        ajaxParams : {},               // 请求数据的ajax的data属性
         			expandColumn : '0',            // 在哪一列上面显示展开按钮
-        			striped : false,               // 是否各行渐变色
+        			striped : true,               // 是否各行渐变色
         			bordered : true,               // 是否显示边框
         			expandAll : $.common.visible(options.expandAll), // 是否全部展开
         	        columns: options.columns
