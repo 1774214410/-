@@ -15,4 +15,6 @@ public interface ICustinfoService {
    public List<Custinfo> findAll(Custinfo custinfo);
 
    public int addOne(Custinfo custinfo);
+
+   public int removeOne(String[] ids);
 }

@@ -1,6 +1,7 @@
 package com.ruoyi.project.hundsun.custinfo.controller;
 
 import com.ruoyi.framework.aspectj.lang.annotation.Log;
+import com.ruoyi.framework.aspectj.lang.annotation.WebLog;
 import com.ruoyi.framework.aspectj.lang.constant.BusinessType;
 import com.ruoyi.framework.web.controller.BaseController;
 import com.ruoyi.framework.web.domain.AjaxResult;
@@ -27,6 +28,7 @@ public class CustinfoController extends BaseController{
     private ICustinfoService custinfoService;
 
     @RequiresPermissions("hundsun:custinfo:view")
+    @WebLog
     @GetMapping()
     public String openView()
     {
@@ -39,10 +41,15 @@ public class CustinfoController extends BaseController{
      * @return
      */
     @RequiresPermissions("hundsun:custinfo:select")
+    @WebLog
     @PostMapping("/list")
     @ResponseBody
     public TableDataInfo list(Custinfo custinfo){
         startPage();
+        String status = custinfo.getStatus();
+        if(status == null || "".equals(status)){
+            custinfo.setStatus("0");
+        }
         List<Custinfo> list = custinfoService.findAll(custinfo);
         return getDataTable(list);
     }
@@ -62,5 +69,18 @@ public class CustinfoController extends BaseController{
     @ResponseBody
     public AjaxResult add(Custinfo custinfo){
         return toAjax(custinfoService.addOne(custinfo));
+    }
+
+    /**
+     * 删除单个用户
+     * @param ids
+     * @return
+     */
+    @RequiresPermissions("hundsun:custinfo:remove")
+    @WebLog
+    @PostMapping("/remove")
+    @ResponseBody
+    public AjaxResult remove(String[] ids){
+        return toAjax(custinfoService.removeOne(ids));
     }
 }

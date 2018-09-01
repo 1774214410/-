@@ -13,4 +13,6 @@ public interface CustinfoMapper {
    public  List<Custinfo> findAll(Custinfo custinfo);
 
    public int addOne(Custinfo custinfo);
+
+   public int removeOne(String[] ids);
 }

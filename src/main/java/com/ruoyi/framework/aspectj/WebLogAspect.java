@@ -23,11 +23,11 @@ import java.lang.reflect.Method;
 public class WebLogAspect {
     public static final Logger log =  LoggerFactory.getLogger(LogAspect.class);
     public static final String dateformat = "yyyy:MM:dd HH:mm:ss";
-    public static final String STIRNG_START = "\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<";
-    public static final String STIRNG_END = "\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>";
+    public static final String STIRNG_START = "\n";
+    public static final String STIRNG_END = "\n";
     //execution the scan of pakage 切点package
-    @Pointcut("execution( * com.ruoyi.project.hundsun..*(..))")
-    //@Pointcut("@annotation(com.ruoyi.framework.aspectj.lang.annotation.WebLog)")
+    //@Pointcut("execution( * com.ruoyi.project.hundsun..*(..))")
+    @Pointcut("@annotation(com.ruoyi.framework.aspectj.lang.annotation.WebLog)")
     public void serviceLog(){
 
     }

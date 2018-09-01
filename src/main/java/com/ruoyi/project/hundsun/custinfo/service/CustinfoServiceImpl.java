@@ -26,4 +26,9 @@ public class CustinfoServiceImpl implements ICustinfoService {
     public int addOne(Custinfo custinfo) {
         return custinfoMapper.addOne(custinfo);
     }
+
+    @Override
+    public int removeOne(String[] ids) {
+        return custinfoMapper.removeOne(ids);
+    }
 }
