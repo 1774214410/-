@@ -63,7 +63,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		WHERE id in
 		<foreach collection="array" item="ids" open="("
 				 separator="," close=")">
-			#{ids}
+			#{id}
 		</foreach>
 	</update>
 	
