@@ -43,6 +43,7 @@ public class RoleController extends BaseController
         return prefix + "/role";
     }
 
+
     @RequiresPermissions("system:role:list")
     @PostMapping("/list")
     @ResponseBody

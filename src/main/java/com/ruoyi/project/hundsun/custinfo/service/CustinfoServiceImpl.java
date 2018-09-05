@@ -1,5 +1,6 @@
 package com.ruoyi.project.hundsun.custinfo.service;
 
+import com.ruoyi.common.support.Convert;
 import com.ruoyi.project.hundsun.custinfo.domain.Custinfo;
 import com.ruoyi.project.hundsun.custinfo.mapper.CustinfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,18 @@ public class CustinfoServiceImpl implements ICustinfoService {
     }
 
     @Override
-    public int removeOne(String[] ids) {
+    public int removeOne(String str) {
+        String[] ids = Convert.toStrArray(str);
         return custinfoMapper.removeOne(ids);
+    }
+
+    @Override
+    public Custinfo findOne(int id) {
+        return custinfoMapper.findOne(id);
+    }
+
+    @Override
+    public int editOne(Custinfo custinfo) {
+        return custinfoMapper.editOne(custinfo);
     }
 }

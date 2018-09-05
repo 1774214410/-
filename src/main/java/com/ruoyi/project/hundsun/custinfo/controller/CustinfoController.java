@@ -11,6 +11,7 @@ import com.ruoyi.project.hundsun.custinfo.service.ICustinfoService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -80,7 +81,22 @@ public class CustinfoController extends BaseController{
     @WebLog
     @PostMapping("/remove")
     @ResponseBody
-    public AjaxResult remove(String[] ids){
+    public AjaxResult remove(String ids){
         return toAjax(custinfoService.removeOne(ids));
+    }
+
+    @WebLog
+    @GetMapping("/edit/{id}")
+    public String edit(@PathVariable int id,ModelMap map){
+        map.put("custinfo",custinfoService.findOne(id));
+        return prefix + "/edit";
+    }
+
+    @RequiresPermissions("hundsun:custinfo:edit")
+    @WebLog
+    @PostMapping("/edit")
+    @ResponseBody
+    public AjaxResult editSave(Custinfo custinfo){
+        return toAjax(custinfoService.editOne(custinfo));
     }
 }

@@ -53,9 +53,9 @@
             <a class="btn btn-outline btn-success btn-rounded" onclick="$.operate.add()" shiro:hasPermission="hundsun:custinfo:add">
                 <i class="fa fa-plus"></i> 新增
             </a>
-           <!-- <a class="btn btn-outline btn-danger btn-rounded" onclick="$.operate.batRemove()" shiro:hasPermission="system:post:remove">
+           <a class="btn btn-outline btn-danger btn-rounded" onclick="$.operate.batRemove()" shiro:hasPermission="system:post:remove">
                 <i class="fa fa-trash-o"></i> 删除
-            </a>-->
+            </a>
         </div>
 
         <div class="col-sm-12 select-info table-striped">
@@ -67,7 +67,10 @@
 <script th:inline="javascript">
     var editFlag = [[${@permission.hasPermi('hundsun:custinfo:edit')}]];
     var removeFlag = [[${@permission.hasPermi('hundsun:custinfo:remove')}]];
+    //显示状态字典值
     var datas = [[${@dict.getType('sys_show_hide')}]];
+    //性别字典值
+    var sexdata =[[${@dict.getType('sys_user_sex')}]];
     var address = "";
     $("#searchBut").on("click",function(){
         $('.select-item').each(function(i){
@@ -107,6 +110,9 @@
                 {
                     field: 'gender',
                     title: '性别',
+                    formatter: function(value, row, index) {
+                        return $.table.selectDictLabel(sexdata, value);
+                    }
                 },
                 {
                     field: 'age',
@@ -124,6 +130,21 @@
                 {
                     field: 'imageaddr',
                     title: '头像',
+                },
+                {
+                    field: 'mark',
+                    title: '个性签名',
+                    formatter: function(value, row, index) {
+                        if(value.length > 8){
+                            return value.substring(0,12)+"...";
+                        }else{
+                            return value;
+                        }
+                    }
+                },
+                {
+                    field: 'createTime',
+                    title: '创建时间',
                 },
                 {
                     field: 'status',

@@ -15,4 +15,8 @@ public interface CustinfoMapper {
    public int addOne(Custinfo custinfo);
 
    public int removeOne(String[] ids);
+
+   public Custinfo findOne(int id);
+
+   public int editOne(Custinfo custinfo);
 }

@@ -14,9 +14,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	   address,
 	   phone,
 	   imageaddr,
+	   mark,
+	   createTime,
 	   status
     </sql>
-	
+
+	<!--查询列表-->
 	<select id="findAll" parameterType="Custinfo" resultMap="custinfoMap">
 		SELECT
 		<include refid="sqlBaseColumn"/>
@@ -35,6 +38,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		</if>
 	</select>
 
+	<!--查询单个-->
+	<select id="findOne" parameterType="java.lang.Integer" resultMap="custinfoMap">
+		SELECT 
+		<include refid="sqlBaseColumn"/>
+		from custinfo where id = #{id}
+	</select>
+
 	<insert id="addOne" parameterType="Custinfo" useGeneratedKeys="true" keyProperty="id">
 		INSERT INTO custinfo(
 			<if test="id != null and id != 0">id,</if>
@@ -44,7 +54,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			<if test="address != null and address != ''">address,</if>
 			<if test="phone != null and phone != ''">phone,</if>
 			<if test="imageaddr != null and imageaddr != ''">imageaddr,</if>
-			<if test="status != null and status != ''">status</if>
+			<if test="mark != null and mark != ''">mark,</if>
+			<if test="status != null and status != ''">status,</if>
+			createTime
 		) values(
 		<if test="id != null and id != 0">#{id},</if>
 		<if test="name != null and name != ''">#{name},</if>
@@ -53,18 +65,51 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<if test="address != null and address != ''">#{address},</if>
 		<if test="phone != null and phone != ''">#{phone},</if>
 		<if test="imageaddr != null and imageaddr != ''">#{imageaddr},</if>
-		<if test="status != null and status != ''">#{status}</if>
+		<if test="mark != null and mark != ''">#{mark},</if>
+		<if test="status != null and status != ''">#{status},</if>
+		sysdate()
 		)
 	</insert>
 
-	<!--实现批量删除(软删)-->
-	<update id="removeOne" parameterType="String[]">
+	<!--实现批量或单个删除(软删)-->
+	<update id="removeOne" parameterType="java.lang.String">
 		update custinfo set status = '1'
 		WHERE id in
 		<foreach collection="array" item="ids" open="("
 				 separator="," close=")">
-			#{id}
+			#{ids}
 		</foreach>
+	</update>
+	
+	<update id="editOne" parameterType="Custinfo">
+		UPDATE custinfo
+		<set>
+			<if test="name != null and name != ''">
+				name = #{name},
+			</if>
+			<if test="gender != null and gender != ''">
+				gender = #{gender},
+			</if>
+			<if test="age != null and age != ''">
+				age = #{age},
+			</if>
+			<if test="address != null and address != ''">
+				address = #{address},
+			</if>
+			<if test="phone != null and phone != ''">
+				phone = #{phone},
+			</if>
+			<if test="imageaddr != null and imageaddr != ''">
+				imageaddr = #{imageaddr},
+			</if>
+			<if test="mark != null and mark != ''">
+				mark = #{mark},
+			</if>
+			<if test="status != null and status != ''">
+				status = #{status}
+			</if>
+		</set>
+		WHERE id = #{id}
 	</update>
 	
 </mapper> 
