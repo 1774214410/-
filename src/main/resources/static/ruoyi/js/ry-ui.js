@@ -19,6 +19,7 @@
                     contentType: "application/x-www-form-urlencoded",   // 编码类型
                     method: 'post',                                     // 请求方式（*）
                     cache: false,                                       // 是否使用缓存
+                    striped: true,  									//表格显示条纹，默认为false
                     sortable: true,                                     // 是否启用排序
                     sortStable: true,                                   // 设置为 true 将获得稳定的排序
                     sortName: _sortName,                                // 排序列名称

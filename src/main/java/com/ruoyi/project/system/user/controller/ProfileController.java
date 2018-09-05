@@ -4,6 +4,7 @@ import org.apache.shiro.crypto.hash.Md5Hash;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,6 +42,9 @@ public class ProfileController extends BaseController
     @Autowired
     private DictService dict;
 
+    @Value("${image.path}")
+    private String defaultImgPath;
+
     /**
      * 个人信息
      */
@@ -52,6 +56,7 @@ public class ProfileController extends BaseController
         mmap.put("user", user);
         mmap.put("roleGroup", userService.selectUserRoleGroup(user.getUserId()));
         mmap.put("postGroup", userService.selectUserPostGroup(user.getUserId()));
+        mmap.put("defaultImgPath",defaultImgPath);
         return prefix + "/profile";
     }
 
@@ -106,6 +111,7 @@ public class ProfileController extends BaseController
     public String avatar(@PathVariable("userId") Long userId, ModelMap mmap)
     {
         mmap.put("user", userService.selectUserById(userId));
+        mmap.put("defaultImgPath",defaultImgPath);
         return prefix + "/avatar";
     }
 

@@ -12,7 +12,7 @@
 	   </div> 
 	   <div class="action"> 
 	       <div class="new-contentarea tc">
-	           <a href="javascript:void(0)" class="upload-img"> <label for="avatar">上传图像</label> </a> 
+	           <a href="javascript:void(0)" class="upload-img"> <label for="avatar">上传图像</label> </a>
 	           <input type="file" class="" name="avatar" id="avatar" accept="image/*"/>
 	       </div> 
 	   <input type="button" id="btnCrop" class="Btnsty_peyton" value="裁切" /> 
@@ -25,11 +25,12 @@
 <div th:include="include::footer"></div>
 <script th:src="@{/ajax/libs/cropbox/cropbox.js}"></script>
 <script type="text/javascript">
+    var imgPath = [[${defaultImgPath}]];
 $(window).load(function() {
     var options = {
         thumbBox: '.thumbBox',
         spinner: '.spinner',
-        imgSrc: '/img/profile.jpg'
+        imgSrc: '/hundsun/img/profile.jpg'
     }
     var cropper = $('.imageBox').cropbox(options);
     $('#avatar').on('change',

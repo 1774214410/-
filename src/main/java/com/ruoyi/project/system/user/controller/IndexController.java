@@ -1,7 +1,10 @@
 package com.ruoyi.project.system.user.controller;
 
 import java.util.List;
+
+import com.ruoyi.framework.aspectj.lang.annotation.WebLog;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,7 +28,11 @@ public class IndexController extends BaseController
     @Autowired
     private RuoYiConfig ruoYiConfig;
 
+    @Value("${image.path}")
+    private String defaultImgPath;
+
     // 系统首页
+    @WebLog
     @GetMapping("/index")
     public String index(ModelMap mmap)
     {
@@ -36,6 +43,7 @@ public class IndexController extends BaseController
         mmap.put("menus", menus);
         mmap.put("user", user);
         mmap.put("copyrightYear", ruoYiConfig.getCopyrightYear());
+        mmap.put("defaultImgPath",defaultImgPath);
         return "index";
     }
 

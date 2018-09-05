@@ -1,6 +1,9 @@
 package com.ruoyi.project.hundsun.custinfo.domain;
 
 import com.ruoyi.framework.web.domain.BaseEntity;
+
+import java.util.Date;
+
 /**
  * @Author: liuzw
  * @Date: 2018/8/20 21:56
@@ -22,6 +25,10 @@ public class Custinfo extends BaseEntity {
     private String phone;
     /** 头像*/
     private String imageaddr;
+    /** 签名*/
+    private String mark;
+    /** 创建时间*/
+    private Date createTime;
     /** 状态(0 显示  1 不显示)*/
     private String status;
 
@@ -79,6 +86,24 @@ public class Custinfo extends BaseEntity {
 
     public void setImageaddr(String imageaddr) {
         this.imageaddr = imageaddr;
+    }
+
+    public String getMark() {
+        return mark;
+    }
+
+    public void setMark(String mark) {
+        this.mark = mark;
+    }
+
+    @Override
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    @Override
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     public String getStatus() {

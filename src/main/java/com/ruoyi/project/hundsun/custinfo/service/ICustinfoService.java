@@ -16,5 +16,9 @@ public interface ICustinfoService {
 
    public int addOne(Custinfo custinfo);
 
-   public int removeOne(String[] ids);
+   public int removeOne(String ids);
+
+   public Custinfo findOne(int id);
+
+   public int editOne(Custinfo custinfo);
 }

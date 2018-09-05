@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50138
 File Encoding         : 65001
 
-Date: 2018-08-22 17:41:31
+Date: 2018-09-01 09:41:07
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -35,11 +35,11 @@ CREATE TABLE `custinfo` (
 -- Records of custinfo
 -- ----------------------------
 INSERT INTO `custinfo` VALUES ('1', '张三', '男', '23', '杭州', '123456', '123', '0');
-INSERT INTO `custinfo` VALUES ('3', '刘正文', '男', '23', '杭州滨江区', '13588439394', '123', '0');
-INSERT INTO `custinfo` VALUES ('4', '', '', '', '', '', '', '1');
+INSERT INTO `custinfo` VALUES ('3', '刘正文', '男', '23', '浙江省杭州市滨江区', '13588439394', '123', '0');
+INSERT INTO `custinfo` VALUES ('4', '小霞', '女', '21', '湖北省武汉市', '13547892347', '123', '1');
 INSERT INTO `custinfo` VALUES ('5', '', '', '', '', '', '', '1');
 INSERT INTO `custinfo` VALUES ('6', '', '', '', '', '', '', '1');
-INSERT INTO `custinfo` VALUES ('7', '', '', '', '', '', '', '0');
+INSERT INTO `custinfo` VALUES ('7', '', '', '', '', '', '', '1');
 INSERT INTO `custinfo` VALUES ('8', '李四', '2', '12', '杭州滨江区', '13522223333', '123', '0');
 
 -- ----------------------------
@@ -188,7 +188,7 @@ CREATE TABLE `qrtz_scheduler_state` (
 -- ----------------------------
 -- Records of qrtz_scheduler_state
 -- ----------------------------
-INSERT INTO `qrtz_scheduler_state` VALUES ('RuoyiScheduler', 'WINDOWS-1AJ0RQQ1534870609537', '1534930883869', '15000');
+INSERT INTO `qrtz_scheduler_state` VALUES ('RuoyiScheduler', 'WINDOWS-1AJ0RQQ1535710326372', '1535710344139', '15000');
 
 -- ----------------------------
 -- Table structure for qrtz_simple_triggers
@@ -284,7 +284,7 @@ CREATE TABLE `sys_config` (
   `update_time` datetime DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) DEFAULT '' COMMENT '备注',
   PRIMARY KEY (`config_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COMMENT='参数配置表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='参数配置表';
 
 -- ----------------------------
 -- Records of sys_config
@@ -311,7 +311,7 @@ CREATE TABLE `sys_dept` (
   `update_by` varchar(64) DEFAULT '' COMMENT '更新者',
   `update_time` datetime DEFAULT NULL COMMENT '更新时间',
   PRIMARY KEY (`dept_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=200 DEFAULT CHARSET=utf8 COMMENT='部门表';
+) ENGINE=InnoDB AUTO_INCREMENT=110 DEFAULT CHARSET=utf8 COMMENT='部门表';
 
 -- ----------------------------
 -- Records of sys_dept
@@ -347,7 +347,7 @@ CREATE TABLE `sys_dict_data` (
   `update_time` datetime DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) DEFAULT '' COMMENT '备注',
   PRIMARY KEY (`dict_code`)
-) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COMMENT='字典数据表';
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COMMENT='字典数据表';
 
 -- ----------------------------
 -- Records of sys_dict_data
@@ -377,6 +377,7 @@ INSERT INTO `sys_dict_data` VALUES ('22', '7', '强退', '7', 'sys_oper_type', '
 INSERT INTO `sys_dict_data` VALUES ('23', '8', '生成代码', '8', 'sys_oper_type', '', 'warning', 'N', '0', 'admin', '2018-03-16 11:33:00', 'ry', '2018-03-16 11:33:00', '新增操作');
 INSERT INTO `sys_dict_data` VALUES ('24', '1', '成功', '0', 'sys_common_status', '', 'primary', 'N', '0', 'admin', '2018-03-16 11:33:00', 'ry', '2018-03-16 11:33:00', '正常状态');
 INSERT INTO `sys_dict_data` VALUES ('25', '2', '失败', '1', 'sys_common_status', '', 'danger', 'N', '0', 'admin', '2018-03-16 11:33:00', 'ry', '2018-03-16 11:33:00', '停用状态');
+INSERT INTO `sys_dict_data` VALUES ('26', '3', '所有', '2', 'sys_show_hide', '', '', 'Y', '0', 'admin', '2018-08-31 14:16:54', 'admin', '2018-08-31 14:17:38', '展示所有');
 
 -- ----------------------------
 -- Table structure for sys_dict_type
@@ -394,7 +395,7 @@ CREATE TABLE `sys_dict_type` (
   `remark` varchar(500) DEFAULT '' COMMENT '备注',
   PRIMARY KEY (`dict_id`),
   UNIQUE KEY `dict_type` (`dict_type`)
-) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COMMENT='字典类型表';
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COMMENT='字典类型表';
 
 -- ----------------------------
 -- Records of sys_dict_type
@@ -428,7 +429,7 @@ CREATE TABLE `sys_job` (
   `update_time` datetime DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) DEFAULT '' COMMENT '备注信息',
   PRIMARY KEY (`job_id`,`job_name`,`job_group`)
-) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COMMENT='定时任务调度表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='定时任务调度表';
 
 -- ----------------------------
 -- Records of sys_job
@@ -472,7 +473,7 @@ CREATE TABLE `sys_logininfor` (
   `msg` varchar(255) DEFAULT '' COMMENT '提示消息',
   `login_time` datetime DEFAULT NULL COMMENT '访问时间',
   PRIMARY KEY (`info_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=148 DEFAULT CHARSET=utf8 COMMENT='系统访问记录';
+) ENGINE=InnoDB AUTO_INCREMENT=179 DEFAULT CHARSET=utf8 COMMENT='系统访问记录';
 
 -- ----------------------------
 -- Records of sys_logininfor
@@ -525,6 +526,37 @@ INSERT INTO `sys_logininfor` VALUES ('144', 'admin', '127.0.0.1', '', 'Chrome', 
 INSERT INTO `sys_logininfor` VALUES ('145', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-22 00:51:52');
 INSERT INTO `sys_logininfor` VALUES ('146', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-22 00:57:29');
 INSERT INTO `sys_logininfor` VALUES ('147', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-22 17:12:05');
+INSERT INTO `sys_logininfor` VALUES ('148', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 09:06:11');
+INSERT INTO `sys_logininfor` VALUES ('149', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 11:02:13');
+INSERT INTO `sys_logininfor` VALUES ('150', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 11:08:54');
+INSERT INTO `sys_logininfor` VALUES ('151', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 12:53:01');
+INSERT INTO `sys_logininfor` VALUES ('152', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 16:23:46');
+INSERT INTO `sys_logininfor` VALUES ('153', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '1', '验证码错误', '2018-08-30 16:29:56');
+INSERT INTO `sys_logininfor` VALUES ('154', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 16:29:59');
+INSERT INTO `sys_logininfor` VALUES ('155', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 16:32:59');
+INSERT INTO `sys_logininfor` VALUES ('156', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-30 17:31:36');
+INSERT INTO `sys_logininfor` VALUES ('157', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 10:01:57');
+INSERT INTO `sys_logininfor` VALUES ('158', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 10:06:56');
+INSERT INTO `sys_logininfor` VALUES ('159', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '1', '验证码错误', '2018-08-31 10:09:54');
+INSERT INTO `sys_logininfor` VALUES ('160', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 10:09:56');
+INSERT INTO `sys_logininfor` VALUES ('161', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 13:34:13');
+INSERT INTO `sys_logininfor` VALUES ('162', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '退出成功', '2018-08-31 13:49:37');
+INSERT INTO `sys_logininfor` VALUES ('163', 'lzw', '127.0.0.1', '', 'Chrome', 'Windows 7', '1', '密码输入错误1次，123456', '2018-08-31 13:49:47');
+INSERT INTO `sys_logininfor` VALUES ('164', 'lzw', '127.0.0.1', '', 'Chrome', 'Windows 7', '1', '验证码错误', '2018-08-31 13:49:58');
+INSERT INTO `sys_logininfor` VALUES ('165', 'lzw', '127.0.0.1', '', 'Chrome', 'Windows 7', '1', '验证码错误', '2018-08-31 13:50:01');
+INSERT INTO `sys_logininfor` VALUES ('166', 'lzw', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 13:50:11');
+INSERT INTO `sys_logininfor` VALUES ('167', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 14:08:16');
+INSERT INTO `sys_logininfor` VALUES ('168', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 14:11:52');
+INSERT INTO `sys_logininfor` VALUES ('169', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '退出成功', '2018-08-31 14:12:28');
+INSERT INTO `sys_logininfor` VALUES ('170', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 14:12:30');
+INSERT INTO `sys_logininfor` VALUES ('171', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '退出成功', '2018-08-31 14:12:32');
+INSERT INTO `sys_logininfor` VALUES ('172', 'lzw', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 14:12:47');
+INSERT INTO `sys_logininfor` VALUES ('173', 'lzw', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '退出成功', '2018-08-31 14:15:27');
+INSERT INTO `sys_logininfor` VALUES ('174', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 14:15:30');
+INSERT INTO `sys_logininfor` VALUES ('175', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 15:21:35');
+INSERT INTO `sys_logininfor` VALUES ('176', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 16:30:07');
+INSERT INTO `sys_logininfor` VALUES ('177', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 16:33:02');
+INSERT INTO `sys_logininfor` VALUES ('178', 'admin', '127.0.0.1', '', 'Chrome', 'Windows 7', '0', '登录成功', '2018-08-31 17:03:59');
 
 -- ----------------------------
 -- Table structure for sys_menu
@@ -546,7 +578,7 @@ CREATE TABLE `sys_menu` (
   `update_time` datetime DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) DEFAULT '' COMMENT '备注',
   PRIMARY KEY (`menu_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2004 DEFAULT CHARSET=utf8 COMMENT='菜单权限表';
+) ENGINE=InnoDB AUTO_INCREMENT=2008 DEFAULT CHARSET=utf8 COMMENT='菜单权限表';
 
 -- ----------------------------
 -- Records of sys_menu
@@ -631,6 +663,9 @@ INSERT INTO `sys_menu` VALUES ('2000', '个人中心', '0', '4', '', 'M', '0', '
 INSERT INTO `sys_menu` VALUES ('2001', '客户管理', '2000', '1', '/hundsun/custinfo', 'C', '0', 'hundsun:custinfo:view', '', 'admin', '2018-08-20 23:01:00', 'admin', '2018-08-21 00:19:26', '');
 INSERT INTO `sys_menu` VALUES ('2002', '客户查询', '2001', '1', '', 'F', '0', 'hundsun:custinfo:select', '', 'admin', '2018-08-21 00:17:32', 'admin', '2018-08-21 00:23:05', '');
 INSERT INTO `sys_menu` VALUES ('2003', '客户新增', '2001', '2', '', 'F', '0', 'hundsun:custinfo:add', '', 'admin', '2018-08-21 22:58:31', '', null, '');
+INSERT INTO `sys_menu` VALUES ('2005', '正常客户显示', '2001', '3', '', 'F', '0', 'hundsun:custinfo:check', '', 'admin', '2018-08-31 13:48:51', '', null, '');
+INSERT INTO `sys_menu` VALUES ('2006', '客户编辑', '2001', '4', '', 'F', '0', 'hundsun:custinfo:edit', '', 'admin', '2018-08-31 16:07:48', '', null, '');
+INSERT INTO `sys_menu` VALUES ('2007', '客户删除', '2001', '5', '', 'F', '0', 'hundsun:custinfo:remove', '', 'admin', '2018-08-31 16:08:23', '', null, '');
 
 -- ----------------------------
 -- Table structure for sys_notice
@@ -648,7 +683,7 @@ CREATE TABLE `sys_notice` (
   `update_time` datetime DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(255) DEFAULT '' COMMENT '备注',
   PRIMARY KEY (`notice_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COMMENT='通知公告表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='通知公告表';
 
 -- ----------------------------
 -- Records of sys_notice
@@ -676,7 +711,7 @@ CREATE TABLE `sys_oper_log` (
   `error_msg` varchar(2000) DEFAULT '' COMMENT '错误消息',
   `oper_time` datetime DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`oper_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=141 DEFAULT CHARSET=utf8 COMMENT='操作日志记录';
+) ENGINE=InnoDB AUTO_INCREMENT=154 DEFAULT CHARSET=utf8 COMMENT='操作日志记录';
 
 -- ----------------------------
 -- Records of sys_oper_log
@@ -722,6 +757,19 @@ INSERT INTO `sys_oper_log` VALUES ('137', '客户新增', '1', 'com.ruoyi.projec
 INSERT INTO `sys_oper_log` VALUES ('138', '客户新增', '1', 'com.ruoyi.project.hundsun.custinfo.controller.CustinfoController.add()', '1', 'admin', '研发一部', '/hundsun/hundsun/custinfo/add', '127.0.0.1', '', '{\"name\":[\"\"],\"gender\":[\"\"],\"age\":[\"\"],\"address\":[\"\"],\"phone\":[\"\"],\"imageaddr\":[\"\"],\"status\":[\"1\"]}', '0', null, '2018-08-22 00:15:30');
 INSERT INTO `sys_oper_log` VALUES ('139', '客户新增', '1', 'com.ruoyi.project.hundsun.custinfo.controller.CustinfoController.add()', '1', 'admin', '研发一部', '/hundsun/hundsun/custinfo/add', '127.0.0.1', '', '{\"name\":[\"\"],\"gender\":[\"\"],\"age\":[\"\"],\"address\":[\"\"],\"phone\":[\"\"],\"imageaddr\":[\"\"],\"status\":[\"0\"]}', '0', null, '2018-08-22 00:32:17');
 INSERT INTO `sys_oper_log` VALUES ('140', '客户新增', '1', 'com.ruoyi.project.hundsun.custinfo.controller.CustinfoController.add()', '1', 'admin', '研发一部', '/hundsun/hundsun/custinfo/add', '127.0.0.1', '', '{\"name\":[\"李四\"],\"gender\":[\"2\"],\"age\":[\"12\"],\"address\":[\"杭州滨江区\"],\"phone\":[\"13522223333\"],\"imageaddr\":[\"123\"],\"status\":[\"0\"]}', '0', null, '2018-08-22 00:58:07');
+INSERT INTO `sys_oper_log` VALUES ('141', '代码生成', '8', 'com.ruoyi.project.tool.gen.controller.GenController.genCode()', '1', 'admin', '研发一部', '/hundsun/tool/gen/genCode/sys_notice', '127.0.0.1', '', '{}', '1', 'name', '2018-08-30 16:48:22');
+INSERT INTO `sys_oper_log` VALUES ('142', '代码生成', '8', 'com.ruoyi.project.tool.gen.controller.GenController.genCode()', '1', 'admin', '研发一部', '/hundsun/tool/gen/genCode/sys_dict_data', '127.0.0.1', '', '{}', '1', 'name', '2018-08-30 16:49:30');
+INSERT INTO `sys_oper_log` VALUES ('143', '菜单管理', '1', 'com.ruoyi.project.system.menu.controller.MenuController.addSave()', '1', 'admin', '研发一部', '/hundsun/system/menu/add', '127.0.0.1', '', '{\"parentId\":[\"0\"],\"menuType\":[\"F\"],\"menuName\":[\"正常客户显示\"],\"url\":[\"\"],\"perms\":[\"hundsun:custinfo:check\"],\"orderNum\":[\"3\"],\"icon\":[\"\"],\"visible\":[\"0\"]}', '0', null, '2018-08-31 13:48:08');
+INSERT INTO `sys_oper_log` VALUES ('144', '菜单管理', '3', 'com.ruoyi.project.system.menu.controller.MenuController.remove()', '1', 'admin', '研发一部', '/hundsun/system/menu/remove/2004', '127.0.0.1', '', '{}', '0', null, '2018-08-31 13:48:23');
+INSERT INTO `sys_oper_log` VALUES ('145', '菜单管理', '1', 'com.ruoyi.project.system.menu.controller.MenuController.addSave()', '1', 'admin', '研发一部', '/hundsun/system/menu/add', '127.0.0.1', '', '{\"parentId\":[\"2001\"],\"menuType\":[\"F\"],\"menuName\":[\"正常客户显示\"],\"url\":[\"\"],\"perms\":[\"hundsun:custinfo:check\"],\"orderNum\":[\"3\"],\"icon\":[\"\"],\"visible\":[\"0\"]}', '0', null, '2018-08-31 13:48:51');
+INSERT INTO `sys_oper_log` VALUES ('146', '角色管理', '2', 'com.ruoyi.project.system.role.controller.RoleController.editSave()', '1', 'admin', '研发一部', '/hundsun/system/role/edit', '127.0.0.1', '', '{\"roleId\":[\"1\"],\"roleName\":[\"管理员\"],\"roleKey\":[\"admin\"],\"roleSort\":[\"1\"],\"status\":[\"0\"],\"remark\":[\"管理员\"],\"menuIds\":[\"1,100,1000,1001,1002,1003,1004,1005,101,1006,1007,1008,1009,1010,102,1011,1012,1013,1014,103,1015,1016,1017,1018,104,1019,1020,1021,1022,10', '0', null, '2018-08-31 13:49:08');
+INSERT INTO `sys_oper_log` VALUES ('147', '字典数据', '1', 'com.ruoyi.project.system.dict.controller.DictDataController.addSave()', '1', 'admin', '研发一部', '/hundsun/system/dict/data/add', '127.0.0.1', '', '{\"dictLabel\":[\"所有\"],\"dictValue\":[\"2\"],\"dictType\":[\"sys_show_hide\"],\"cssClass\":[\"\"],\"listClass\":[\"\"],\"isDefault\":[\"Y\"],\"dictSort\":[\"1\"],\"status\":[\"0\"],\"remark\":[\"\"]}', '0', null, '2018-08-31 14:16:54');
+INSERT INTO `sys_oper_log` VALUES ('148', '字典数据', '2', 'com.ruoyi.project.system.dict.controller.DictDataController.editSave()', '1', 'admin', '研发一部', '/hundsun/system/dict/data/edit', '127.0.0.1', '', '{\"dictCode\":[\"26\"],\"dictLabel\":[\"所有\"],\"dictValue\":[\"2\"],\"dictType\":[\"sys_show_hide\"],\"cssClass\":[\"\"],\"listClass\":[\"\"],\"isDefault\":[\"Y\"],\"dictSort\":[\"0\"],\"status\":[\"0\"],\"remark\":[\"\"]}', '0', null, '2018-08-31 14:17:11');
+INSERT INTO `sys_oper_log` VALUES ('149', '字典数据', '2', 'com.ruoyi.project.system.dict.controller.DictDataController.editSave()', '1', 'admin', '研发一部', '/hundsun/system/dict/data/edit', '127.0.0.1', '', '{\"dictCode\":[\"26\"],\"dictLabel\":[\"所有\"],\"dictValue\":[\"2\"],\"dictType\":[\"sys_show_hide\"],\"cssClass\":[\"\"],\"listClass\":[\"\"],\"isDefault\":[\"Y\"],\"dictSort\":[\"1\"],\"status\":[\"0\"],\"remark\":[\"展示所有\"]}', '0', null, '2018-08-31 14:17:28');
+INSERT INTO `sys_oper_log` VALUES ('150', '字典数据', '2', 'com.ruoyi.project.system.dict.controller.DictDataController.editSave()', '1', 'admin', '研发一部', '/hundsun/system/dict/data/edit', '127.0.0.1', '', '{\"dictCode\":[\"26\"],\"dictLabel\":[\"所有\"],\"dictValue\":[\"2\"],\"dictType\":[\"sys_show_hide\"],\"cssClass\":[\"\"],\"listClass\":[\"\"],\"isDefault\":[\"Y\"],\"dictSort\":[\"3\"],\"status\":[\"0\"],\"remark\":[\"展示所有\"]}', '0', null, '2018-08-31 14:17:38');
+INSERT INTO `sys_oper_log` VALUES ('151', '菜单管理', '1', 'com.ruoyi.project.system.menu.controller.MenuController.addSave()', '1', 'admin', '研发一部', '/hundsun/system/menu/add', '127.0.0.1', '', '{\"parentId\":[\"2001\"],\"menuType\":[\"F\"],\"menuName\":[\"客户编辑\"],\"url\":[\"\"],\"perms\":[\"hundsun:custinfo:edit\"],\"orderNum\":[\"4\"],\"icon\":[\"\"],\"visible\":[\"0\"]}', '0', null, '2018-08-31 16:07:48');
+INSERT INTO `sys_oper_log` VALUES ('152', '菜单管理', '1', 'com.ruoyi.project.system.menu.controller.MenuController.addSave()', '1', 'admin', '研发一部', '/hundsun/system/menu/add', '127.0.0.1', '', '{\"parentId\":[\"2001\"],\"menuType\":[\"F\"],\"menuName\":[\"客户删除\"],\"url\":[\"\"],\"perms\":[\"hundsun:custinfo:remove\"],\"orderNum\":[\"5\"],\"icon\":[\"\"],\"visible\":[\"0\"]}', '0', null, '2018-08-31 16:08:23');
+INSERT INTO `sys_oper_log` VALUES ('153', '角色管理', '2', 'com.ruoyi.project.system.role.controller.RoleController.editSave()', '1', 'admin', '研发一部', '/hundsun/system/role/edit', '127.0.0.1', '', '{\"roleId\":[\"1\"],\"roleName\":[\"管理员\"],\"roleKey\":[\"admin\"],\"roleSort\":[\"1\"],\"status\":[\"0\"],\"remark\":[\"管理员\"],\"menuIds\":[\"1,100,1000,1001,1002,1003,1004,1005,101,1006,1007,1008,1009,1010,102,1011,1012,1013,1014,103,1015,1016,1017,1018,104,1019,1020,1021,1022,10', '0', null, '2018-08-31 16:08:33');
 
 -- ----------------------------
 -- Table structure for sys_post
@@ -765,12 +813,12 @@ CREATE TABLE `sys_role` (
   `update_time` datetime DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) DEFAULT '' COMMENT '备注',
   PRIMARY KEY (`role_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COMMENT='角色信息表';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='角色信息表';
 
 -- ----------------------------
 -- Records of sys_role
 -- ----------------------------
-INSERT INTO `sys_role` VALUES ('1', '管理员', 'admin', '1', '0', 'admin', '2018-03-16 11:33:00', 'admin', '2018-08-21 22:58:46', '管理员');
+INSERT INTO `sys_role` VALUES ('1', '管理员', 'admin', '1', '0', 'admin', '2018-03-16 11:33:00', 'admin', '2018-08-31 16:08:33', '管理员');
 INSERT INTO `sys_role` VALUES ('2', '普通角色', 'common', '2', '0', 'admin', '2018-03-16 11:33:00', 'admin', '2018-08-21 00:26:56', '普通角色');
 
 -- ----------------------------
@@ -866,6 +914,9 @@ INSERT INTO `sys_role_menu` VALUES ('1', '2000');
 INSERT INTO `sys_role_menu` VALUES ('1', '2001');
 INSERT INTO `sys_role_menu` VALUES ('1', '2002');
 INSERT INTO `sys_role_menu` VALUES ('1', '2003');
+INSERT INTO `sys_role_menu` VALUES ('1', '2005');
+INSERT INTO `sys_role_menu` VALUES ('1', '2006');
+INSERT INTO `sys_role_menu` VALUES ('1', '2007');
 INSERT INTO `sys_role_menu` VALUES ('2', '1');
 INSERT INTO `sys_role_menu` VALUES ('2', '100');
 INSERT INTO `sys_role_menu` VALUES ('2', '101');
@@ -958,9 +1009,9 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', '106', 'admin', '若依', '00', 'ry@163.com', '15888888888', '1', '', '29c67a30398638269fe600f73a054934', '111111', '0', '0', '127.0.0.1', '2018-08-22 17:12:05', 'admin', '2018-03-16 11:33:00', 'ry', '2018-08-22 17:12:05', '管理员');
+INSERT INTO `sys_user` VALUES ('1', '106', 'admin', '若依', '00', 'ry@163.com', '15888888888', '1', '', '29c67a30398638269fe600f73a054934', '111111', '0', '0', '127.0.0.1', '2018-08-31 17:03:59', 'admin', '2018-03-16 11:33:00', 'ry', '2018-08-31 17:03:59', '管理员');
 INSERT INTO `sys_user` VALUES ('2', '108', 'ry', '若依', '00', 'ry@qq.com', '15666666666', '1', '', '8e6d98b90472783cc73c17047ddccf36', '222222', '0', '0', '127.0.0.1', '2018-03-16 11:33:00', 'admin', '2018-03-16 11:33:00', 'ry', '2018-03-16 11:33:00', '测试员');
-INSERT INTO `sys_user` VALUES ('100', '106', 'lzw', '依然范特西', '00', 'a1774214410@163.com', '13588439394', '0', '', 'c8de6e5212c2771bac5fb6aca3e92831', 'f80b1e', '0', '0', '127.0.0.1', '2018-08-21 00:27:12', 'admin', '2018-08-20 21:16:41', 'admin', '2018-08-21 00:27:12', '');
+INSERT INTO `sys_user` VALUES ('100', '106', 'lzw', '依然范特西', '00', 'a1774214410@163.com', '13588439394', '0', '', 'c8de6e5212c2771bac5fb6aca3e92831', 'f80b1e', '0', '0', '127.0.0.1', '2018-08-31 14:12:47', 'admin', '2018-08-20 21:16:41', 'admin', '2018-08-31 14:12:47', '');
 
 -- ----------------------------
 -- Table structure for sys_user_online
@@ -984,7 +1035,6 @@ CREATE TABLE `sys_user_online` (
 -- ----------------------------
 -- Records of sys_user_online
 -- ----------------------------
-INSERT INTO `sys_user_online` VALUES ('748c493b-5522-4838-89a4-86aa456750d9', 'admin', '研发一部', '127.0.0.1', '', 'Chrome', 'Windows 7', 'on_line', '2018-08-22 17:12:01', '2018-08-22 17:12:05', '1800000');
 
 -- ----------------------------
 -- Table structure for sys_user_post
