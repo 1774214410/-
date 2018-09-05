@@ -35,7 +35,6 @@ CREATE TABLE `custinfo` (
 -- Records of custinfo
 -- ----------------------------
 INSERT INTO `custinfo` VALUES ('1', '张三', '男', '23', '杭州', '123456', '123', '0');
-INSERT INTO `custinfo` VALUES ('3', '刘正文', '男', '23', '浙江省杭州市滨江区', '13588439394', '123', '0');
 INSERT INTO `custinfo` VALUES ('4', '小霞', '女', '21', '湖北省武汉市', '13547892347', '123', '1');
 INSERT INTO `custinfo` VALUES ('5', '', '', '', '', '', '', '1');
 INSERT INTO `custinfo` VALUES ('6', '', '', '', '', '', '', '1');
