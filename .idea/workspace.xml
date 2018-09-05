@@ -3,6 +3,198 @@
   <component name="ChangeListManager">
     <list default="true" id="0432ee15-34c5-43d9-9097-4a4a471ab5db" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/doc/~$环境使用手册v1.0.2.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/hundsun/CustinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/hundsun/CustinfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/RuoYiServletInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/RuoYiServletInitializer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/constant/ScheduleConstants$Status.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/constant/ScheduleConstants$Status.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/base/BaseException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/base/BaseException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException$InvalidFlashExtensionException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException$InvalidFlashExtensionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException$InvalidImageExtensionException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException$InvalidImageExtensionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException$InvalidMediaExtensionException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException$InvalidMediaExtensionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/file/InvalidExtensionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/job/TaskException$Code.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/job/TaskException$Code.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/job/TaskException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/job/TaskException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/RoleBlockedException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/RoleBlockedException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/UserException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/UserException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/UserPasswordRetryLimitCountException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/UserPasswordRetryLimitCountException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/UserPasswordRetryLimitExceedException.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/exception/user/UserPasswordRetryLimitExceedException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/support/CharsetKit.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/support/CharsetKit.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/support/Convert.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/support/Convert.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/support/StrFormatter.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/support/StrFormatter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/AddressUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/AddressUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/DateUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/DateUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/IpUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/IpUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/LogUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/LogUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/MapDataUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/MapDataUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/MessageUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/MessageUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/ServletUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/ServletUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/StringUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/StringUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/SystemLogUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/SystemLogUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/TreeUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/TreeUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/bean/BeanUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/bean/BeanUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUploadUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUploadUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils$TrustAnyHostnameVerifier.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils$TrustAnyHostnameVerifier.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils$TrustAnyTrustManager.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils$TrustAnyTrustManager.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/poi/ExcelUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/poi/ExcelUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/PermissionUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/PermissionUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/ShiroUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/ShiroUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/spring/SpringUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/spring/SpringUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssHttpServletRequestWrapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssHttpServletRequestWrapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/DsAspect.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/DsAspect.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/LogAspect.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/LogAspect.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/WebLogAspect.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/WebLogAspect.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/GenConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/GenConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/I18nConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/I18nConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ResourcesConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ResourcesConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/RuoYiConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/RuoYiConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ScheduleConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ScheduleConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ShiroConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ShiroConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/datasource/DynamicDataSource.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/datasource/DynamicDataSource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/realm/UserRealm.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/realm/UserRealm.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/LoginService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/LoginService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/PasswordService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/PasswordService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/LogoutFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/LogoutFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/online/OnlineSessionFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/online/OnlineSessionFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/OnlineWebSessionManager.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/OnlineWebSessionManager.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/controller/BaseController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/domain/AjaxResult.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/domain/AjaxResult.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/domain/BaseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/domain/BaseEntity.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/exception/DefaultExceptionHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/exception/DefaultExceptionHandler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/page/PageDomain.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/page/PageDomain.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/page/TableDataInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/page/TableDataInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/service/ConfigService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/service/ConfigService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/service/DictService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/service/DictService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/common/CommonController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/common/CommonController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/domain/Custinfo.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/domain/Custinfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/mapper/CustinfoMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/mapper/CustinfoMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/service/CustinfoServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/service/CustinfoServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/service/ICustinfoService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/hundsun/custinfo/service/ICustinfoService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/controller/JobController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/controller/JobController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/controller/JobLogController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/controller/JobLogController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/domain/Job.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/domain/Job.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/domain/JobLog.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/domain/JobLog.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/mapper/JobLogMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/mapper/JobLogMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/mapper/JobMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/mapper/JobMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/IJobLogService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/IJobLogService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/IJobService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/IJobService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/JobLogServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/JobLogServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/JobServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/JobServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/task/RyTask.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/task/RyTask.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/ScheduleJob.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/ScheduleJob.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/ScheduleUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/ScheduleUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/controller/LogininforController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/controller/LogininforController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/domain/Logininfor.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/domain/Logininfor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/mapper/LogininforMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/mapper/LogininforMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/service/ILogininforService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/service/ILogininforService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/service/LogininforServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/logininfor/service/LogininforServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/controller/UserOnlineController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/controller/UserOnlineController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/domain/OnlineSession$OnlineStatus.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/domain/OnlineSession$OnlineStatus.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/domain/OnlineSession.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/domain/OnlineSession.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/domain/UserOnline.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/domain/UserOnline.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/mapper/UserOnlineMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/mapper/UserOnlineMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/service/IUserOnlineService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/service/IUserOnlineService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/service/UserOnlineServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/service/UserOnlineServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/controller/OperlogController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/controller/OperlogController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/domain/OperLog.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/domain/OperLog.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/mapper/OperLogMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/mapper/OperLogMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/service/IOperLogService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/service/IOperLogService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/service/OperLogServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/operlog/service/OperLogServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/controller/ConfigController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/controller/ConfigController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/mapper/ConfigMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/mapper/ConfigMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/service/ConfigServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/service/ConfigServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/service/IConfigService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/service/IConfigService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/controller/DeptController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/controller/DeptController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/domain/Dept.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/domain/Dept.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/mapper/DeptMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/mapper/DeptMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/IDeptService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/IDeptService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/controller/DictDataController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/controller/DictDataController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/controller/DictTypeController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/controller/DictTypeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/domain/DictData.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/domain/DictData.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/domain/DictType.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/domain/DictType.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/mapper/DictDataMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/mapper/DictDataMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/mapper/DictTypeMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/mapper/DictTypeMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/DictDataServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/DictDataServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/IDictDataService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/IDictDataService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/IDictTypeService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/IDictTypeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/domain/Menu.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/domain/Menu.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/service/MenuServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/service/MenuServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/controller/NoticeController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/controller/NoticeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/domain/Notice.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/domain/Notice.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/mapper/NoticeMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/mapper/NoticeMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/service/INoticeService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/service/INoticeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/service/NoticeServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/notice/service/NoticeServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/controller/PostController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/controller/PostController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/domain/Post.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/domain/Post.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/mapper/PostMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/mapper/PostMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/service/IPostService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/service/IPostService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/service/PostServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/service/PostServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/controller/RoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/controller/RoleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/domain/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/domain/Role.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/domain/RoleMenu.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/domain/RoleMenu.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/mapper/RoleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/mapper/RoleMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/mapper/RoleMenuMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/mapper/RoleMenuMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/service/IRoleService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/service/IRoleService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/service/RoleServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/service/RoleServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/CaptchaController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/CaptchaController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/ProfileController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/ProfileController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/UserPost.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/UserPost.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/UserRole.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/UserStatus.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/domain/UserStatus.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/mapper/UserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/mapper/UserPostMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/mapper/UserPostMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/mapper/UserRoleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/mapper/UserRoleMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/service/IUserService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/service/IUserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/service/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/controller/GenController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/controller/GenController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/ColumnInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/ColumnInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/TableInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/TableInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/mapper/GenMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/mapper/GenMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/IGenService.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/IGenService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/swagger/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/swagger/Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/swagger/TestController.class" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/swagger/TestController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/hundsun/CustinfoMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis/hundsun/CustinfoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/font/summernote.woff" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/font/summernote.woff" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.eot" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.eot" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.ttf" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.ttf" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.woff" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.woff" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.woff2" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfont93e3.woff2" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfontd41d.eot" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/fontawesome-webfontd41d.eot" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regulard41d.eot" afterPath="$PROJECT_DIR$/target/classes/static/css/fonts/glyphicons-halflings-regulard41d.eot" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/favicon.ico" afterPath="$PROJECT_DIR$/target/classes/static/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/target/classes/static/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Simple-Line-Icons.woff2" afterPath="$PROJECT_DIR$/target/classes/static/fonts/Simple-Line-Icons.woff2" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff2" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,95 +212,121 @@
       <file leaf-file-name="ICustinfoService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/ICustinfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="345">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebLogAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/WebLogAspect.java">
+      <file leaf-file-name="CustinfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/CustinfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+            <state relative-caret-position="426">
+              <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custinfo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html">
+      <file leaf-file-name="CustinfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2116">
-              <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="58" column="7" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2068#2069#0" expanded="true" />
+                <element signature="e#2286#2287#0" expanded="true" />
+                <element signature="e#2347#2348#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustinfoMapper.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="127" column="46" lean-forward="false" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustinfoMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hundsun/CustinfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="259">
+              <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
               <folding>
-                <marker date="1535677886604" expanded="true" signature="1045:2001" ph="INSERT INTO custinfo... " />
+                <marker date="1536109846773" expanded="true" signature="1044:2000" ph="INSERT INTO custinfo... " />
+                <marker date="1536109846773" expanded="true" signature="2082:2126" ph="update custinfo... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custinfo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js">
+      <file leaf-file-name="CustinfoMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/mapper/CustinfoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="322">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ry-ui.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/ruoyi/js/ry-ui.js">
+      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="401">
+              <caret line="148" column="32" lean-forward="false" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city-picker.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/distpicker/css/city-picker.css">
+      <file leaf-file-name="RoleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/mapper/RoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="414">
+              <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/distpicker/css/main.css">
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="245">
+              <caret line="75" column="54" lean-forward="false" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+              <folding>
+                <marker date="1534930061852" expanded="true" signature="918:1007" ph="select role_... sys_role" />
+                <marker date="1534930061852" expanded="true" signature="1886:2084" ph="SELECT r.rol... sys_user" />
+                <marker date="1534930061852" expanded="true" signature="2716:2762" ph="delete from sys_role... " />
+                <marker date="1534930061852" expanded="true" signature="3051:3606" ph="update sys_role... " />
+                <marker date="1534930061852" expanded="true" signature="3717:4691" ph="insert into sys_role... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="include.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include.html">
+      <file leaf-file-name="DictTypeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/DictTypeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="41" column="63" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="63" />
-              <folding />
+            <state relative-caret-position="-276">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1534930061845" expanded="true" signature="772:867" ph="select dict_... sys_dict_type" />
+                <marker date="1534930061845" expanded="true" signature="2192:2243" ph="delete from sys_dict_type... " />
+                <marker date="1534930061845" expanded="true" signature="2545:3011" ph="update sys_dict_type... " />
+                <marker date="1534930061845" expanded="true" signature="3085:3778" ph="insert into sys_dict_type... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,9 +375,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/system/post/post.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/mapper/CustinfoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/CustinfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-druid.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/domain/Custinfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -171,13 +386,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/WebLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/ICustinfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/WebLogAspect.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/include.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/WebLogAspect.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/ruoyi/js/ry-ui.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/ConfigService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/ICustinfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/CustinfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/hundsun/CustinfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/mapper/CustinfoMapper.java" />
       </list>
     </option>
   </component>
@@ -217,9 +436,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -252,6 +473,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RuoYi" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RuoYi" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +504,164 @@
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="hundsun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="hundsun" type="462c0819:PsiDirectoryNode" />
+              <item name="custinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="hundsun" type="462c0819:PsiDirectoryNode" />
+              <item name="custinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="hundsun" type="462c0819:PsiDirectoryNode" />
+              <item name="custinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="hundsun" type="462c0819:PsiDirectoryNode" />
+              <item name="custinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
@@ -294,19 +687,50 @@
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="hundsun" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
             <path>
-              <item name="RuoYi" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RuoYi" type="1039202d:NonAndroidModuleNode" />
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="hundsun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruoyi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="role" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,7 +743,7 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/project file1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -466,20 +890,21 @@
       <workItem from="1535598310209" duration="4813000" />
       <workItem from="1535617874920" duration="5718000" />
       <workItem from="1535642301318" duration="1475000" />
-      <workItem from="1535680079267" duration="50000" />
+      <workItem from="1535680079267" duration="233000" />
+      <workItem from="1535680633734" duration="18797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51526000" />
+    <option name="totallyTimeSpent" value="70506000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -488,16 +913,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3798627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44393593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61513156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24205749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2912254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -507,7 +933,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -523,19 +948,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java</url>
-          <line>46</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java</url>
-          <line>45</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java</url>
-          <line>63</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -548,188 +973,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/BusinessType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ajax/libs/validate/jquery.validate.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="110" lean-forward="false" selection-start-line="3" selection-start-column="110" selection-end-line="3" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/post/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/notice/notice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="109" column="34" lean-forward="true" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="67" column="48" lean-forward="true" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="103" column="35" lean-forward="false" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/controller/NoticeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="72" column="58" lean-forward="true" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/notice/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/domain/Custinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ResourcesConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/menu/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache/ehcache-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/I18nConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/GenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/user/profile/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -769,14 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,14 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/ICustinfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/distpicker/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1035">
@@ -860,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="63" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -883,24 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ruoyi/js/ry-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/WebLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -909,21 +1110,288 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/WebLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/hundsun/custinfo/custinfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="207">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1178">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/controller/DictTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2203">
+          <caret line="135" column="24" lean-forward="false" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/page/TableDataInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/ConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/domain/DictData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/DictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#612#613#0" expanded="false" />
+            <element signature="e#681#682#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/PermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hundsun/custinfo/custinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="141" column="121" lean-forward="false" selection-start-line="141" selection-start-column="121" selection-end-line="141" selection-end-column="121" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/common/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1027">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/druid/DruidController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/controller/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="78" column="43" lean-forward="false" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/post/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="27" column="99" lean-forward="false" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ruoyi/js/ry-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="383" column="56" lean-forward="true" selection-start-line="383" selection-start-column="56" selection-end-line="383" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="121" column="44" lean-forward="true" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/role/role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar!/org/springframework/ui/ModelMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/IRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="148" column="32" lean-forward="false" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/DictTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1534930061845" expanded="true" signature="772:867" ph="select dict_... sys_dict_type" />
+            <marker date="1534930061845" expanded="true" signature="2192:2243" ph="delete from sys_dict_type... " />
+            <marker date="1534930061845" expanded="true" signature="2545:3011" ph="update sys_dict_type... " />
+            <marker date="1534930061845" expanded="true" signature="3085:3778" ph="insert into sys_dict_type... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="127" column="46" lean-forward="false" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="75" column="54" lean-forward="false" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+          <folding>
+            <marker date="1534930061852" expanded="true" signature="918:1007" ph="select role_... sys_role" />
+            <marker date="1534930061852" expanded="true" signature="1886:2084" ph="SELECT r.rol... sys_user" />
+            <marker date="1534930061852" expanded="true" signature="2716:2762" ph="delete from sys_role... " />
+            <marker date="1534930061852" expanded="true" signature="3051:3606" ph="update sys_role... " />
+            <marker date="1534930061852" expanded="true" signature="3717:4691" ph="insert into sys_role... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/ICustinfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/service/CustinfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/controller/CustinfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="58" column="7" lean-forward="false" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="e#2005#2006#0" expanded="true" />
+            <element signature="e#2068#2069#0" expanded="true" />
+            <element signature="e#2286#2287#0" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hundsun/CustinfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="259">
+          <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
           <folding>
-            <marker date="1535677886604" expanded="true" signature="1045:2001" ph="INSERT INTO custinfo... " />
+            <marker date="1536109846773" expanded="true" signature="1044:2000" ph="INSERT INTO custinfo... " />
+            <marker date="1536109846773" expanded="true" signature="2082:2126" ph="update custinfo... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/hundsun/custinfo/mapper/CustinfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

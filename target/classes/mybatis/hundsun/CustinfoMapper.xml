@@ -58,7 +58,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</insert>
 
 	<!--实现批量删除(软删)-->
-	<update id="removeOne" parameterType="String[]">
+	<update id="removeOne" parameterType="String">
 		update custinfo set status = '1'
 		WHERE id in
 		<foreach collection="array" item="ids" open="("
